@@ -31,7 +31,7 @@ Plugin 'klen/rope-vim'
 "Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
 ""code folding
-Plugin 'tmhedberg/SimpylFold'
+"Plugin 'tmhedberg/SimpylFold'
 
 "Colors!!!
 Plugin 'altercation/vim-colors-solarized'
@@ -115,11 +115,11 @@ autocmd FileType python set autoindent
 set backspace=indent,eol,start
 
 
-"Folding based on indentation:
-autocmd FileType python set foldmethod=indent
-"use space to open folds
+" Folding based on indentation:
+"autocmd FileType python set foldmethod=indent
+" use space to open folds
 nnoremap <space> za 
 "----------Stop python PEP 8 stuff--------------
 
-"js stuff"
+" js stuff"
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
